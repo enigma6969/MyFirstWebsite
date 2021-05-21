@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <h1>Contact:</h1>
+    <ul>
+        <li>Email : preetam.valasa@gmail.com</li>
+        <li>Phone : +91 8297891699</li>
+        <li>LinkedIn : <a href="http://linkedin.com/in/preetam-valasa-113a93181/">Preetam Valasa</a></li>
+        <li>HackerRank : <a href="http://www.hackerrank.com/enigma_9">enigma_9</a></li>
+        <li>Typing : <a href="http://www.keybr.com/profile">keybr</a></li>
+        <li>Address : <a href="http://www.google.com/maps/place/17%C2%B029'14.5%22N+78%C2%B024'49.4%22E/@17.4873614,78.3436775,12z/data=!4m6!3m5!1s0x3bcb91bbe4275a85:0xb0a300847ab29d71!7e2!8m2!3d17.4873614!4d78.4137154?hl=en-IN">Kukatpally, Hyderabad</a></li>
+    </ul>
+    <hr>
+    <b>Enter Details:</b>
+    <form action="mailto:ompritam2000@gmail.com" method="post" enctype="text/plain">
+        <table cellspacing='5'>
+            <tr>
+                <td>
+                    <label>Name:</label>
+                </td>
+                <td>
+                    <input type="text" name='yourName' value='' required placeholder='Enter Full Name'>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Gender:</label>
+                </td>
+                <td>
+                    <div>
+                        <label>Male</label>
+                        <input type="radio" name="yourGender" value="Male">
+                        <label>Female</label>
+                        <input type="radio" name="yourGender" value="Female">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>DOB:</label>
+                </td>
+                <td>
+                    <input type="date" name='yourDOB' value=''>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>E-mail:</label>
+                </td>
+                <td>
+                    <input type="email" name='yourEmail' value='' required placeholder='Email'>
+                </td> 
+            </tr>
+            <tr>
+                <td>
+                    <label>Password:</label>
+                </td>
+                <td>
+                    <input type="password" name='yourPassword' value='' required placeholder='Password'>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Resume:</label></td>
+                <td>
+                    <input type="file" name="yourResume" value="" required>
+                </td>
+            </tr>
+        </table> 
+        <label>Enter your message :</label>
+        <br>
+        <textarea name='message' id='msg' rows="10" cols="60"></textarea>
+        <br>
+        <label>Do you want to receive further updates ?</label>
+        <input type="checkbox" name="yourUpdates">
+        <br>
+        <br>
+        <input type="submit" name="" value="Submit">
+    </form>
+</body>
+</html>
